@@ -29,10 +29,6 @@ public class Movimientocubo : MonoBehaviour
         {
             transform.position += new Vector3(movementSpeed, 0, 0);
         }
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.position -= new Vector3(movementSpeed, 0, 0);
-        }
 
 
     }
@@ -48,6 +44,10 @@ public class Movimientocubo : MonoBehaviour
     {
         name = collision.gameObject.name;
         if(name == "barrera1")
+        {
+            transform.position = new Vector3(-95.2f, 1.125147f, -0.35f);
+        }
+        if(name == "palos")
         {
             transform.position = new Vector3(-95.2f, 1.125147f, -0.35f);
         }
