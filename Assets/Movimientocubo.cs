@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Movimientocubo : MonoBehaviour
 {
@@ -9,10 +11,10 @@ public class Movimientocubo : MonoBehaviour
     public float rotationspeed;
     private Rigidbody rb;
     public float jumpForce;
-
+    public Text  txt_GanastePerdiste;
     void start()
     {
-
+        
     }
     void Update()
     {
@@ -50,6 +52,10 @@ public class Movimientocubo : MonoBehaviour
         if(name == "palos")
         {
             transform.position = new Vector3(-95.2f, 1.125147f, -0.35f);
+        }
+        if (collision.gameObject.name == "meta")
+        {
+            SceneManager.LoadScene("ganaste");
         }
     }
 }
