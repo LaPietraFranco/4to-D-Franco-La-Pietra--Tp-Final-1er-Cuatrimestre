@@ -17,7 +17,7 @@ public class INs : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.S))
         {
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < 2; i++)
             {
                 GameObject capsule = Instantiate(prefab, transform.position, transform.rotation) as GameObject;
                 capsule.name = "Capsule";

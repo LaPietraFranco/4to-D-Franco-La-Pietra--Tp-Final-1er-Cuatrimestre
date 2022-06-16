@@ -21,15 +21,15 @@ public class Movimientocubo : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         if (Input.GetKey(KeyCode.A))
         {
-            transform.position += new Vector3(0, 0, movementSpeed);
+            transform.position += new Vector3(0, 0, movementSpeed * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.position -= new Vector3(0, 0, movementSpeed);
+            transform.position -= new Vector3(0, 0, movementSpeed * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.W))
         {
-            transform.position += new Vector3(movementSpeed, 0, 0);
+            transform.position += new Vector3(movementSpeed * Time.deltaTime, 0, 0);
         }
 
 

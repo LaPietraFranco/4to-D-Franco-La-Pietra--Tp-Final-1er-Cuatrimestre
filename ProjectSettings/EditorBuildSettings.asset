@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ganaste.unity
     guid: 59d4091f84281dd4f96b972f69b2863a
+  - enabled: 1
+    path: Assets/Scenes/pantallainicio.unity
+    guid: f4eb13da357e3304aad4cf209d1de2e0
   m_configObjects: {}
