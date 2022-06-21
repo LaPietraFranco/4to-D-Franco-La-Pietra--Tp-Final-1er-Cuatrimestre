@@ -1089,8 +1089,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59d6ce7c2b5f7ff4788ae165463841ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SegundosTotales: 5
-  cuentaregresiva: {fileID: 1069896006}
+  txttimer: {fileID: 1069896006}
   Panel: {fileID: 1705950533}
 --- !u!4 &610280165
 Transform:

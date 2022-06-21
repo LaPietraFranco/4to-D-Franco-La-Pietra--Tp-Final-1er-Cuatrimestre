@@ -47,11 +47,11 @@ public class Movimientocubo : MonoBehaviour
         name = collision.gameObject.name;
         if(name == "barrera1")
         {
-            SceneManager.LoadScene("SampleScene");
+            transform.position = new Vector3(-95.2f, 1.23f, -0.35f);
         }
         if(name == "palos")
         {
-            SceneManager.LoadScene("SampleScene");
+            transform.position = new Vector3(-95.2f, 1.23f, -0.35f);
         }
         if (collision.gameObject.name == "meta")
         {
