@@ -1,26 +1,25 @@
 fileFormatVersion: 2
-guid: 202d57aa175cb764294bcf103094b836
+guid: ecd2be677a5a8464096d3c977f6b5670
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
     2100000: textura muro
-    2100002: Material.001
     2300000: //RootNode
     3300000: //RootNode
-    4300000: plataforma
+    4300000: muro izquierdo
   externalObjects:
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: calle vacia
-    second: {fileID: 2800000, guid: 9953751d8b54dd84bb189f2ec7179d48, type: 3}
+    second: {fileID: 2800000, guid: 62eff51a4f9fb864a8126b891262a6a3, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: texturas muros
-    second: {fileID: 2800000, guid: 47899bf96eb7e714f801ab0c8538e1c4, type: 3}
+    second: {fileID: 2800000, guid: e9aa678e00d1a5a4abe8cfd9cce3c268, type: 3}
   materials:
     importMaterials: 1
     materialName: 0

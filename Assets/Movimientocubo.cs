@@ -45,11 +45,23 @@ public class Movimientocubo : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         name = collision.gameObject.name;
-        if(name == "barrera1")
+        if(name == "barrera ladrillos")
         {
-            transform.position = new Vector3(-95.2f, 1.23f, -0.35f);
+            transform.position = new Vector3(-94f, 2.63f, -25.5f);
         }
-        if(name == "palos")
+        if (name == "pared ladrillos")
+        {
+            transform.position = new Vector3(-94f, 2.63f, -25.5f);
+        }
+        if (name == "cone")
+        {
+            transform.position = new Vector3(-94f, 2.63f, -25.5f);
+        }
+        if (name == "muro")
+        {
+            transform.position = new Vector3(-94f, 2.63f, -25.5f);
+        }
+        if (name == "palos")
         {
             transform.position = new Vector3(-95.2f, 1.23f, -0.35f);
         }
